@@ -25,7 +25,7 @@ const Experience = () => {
           <h6 className="font-medium text-secondary">Work Experience</h6>
         </div>
         <h2 className="text-[2rem] md:text-4xl capitalize font-semibold mb-5">
-          We specialize in custom -tailored
+          Expertise in bespoke technology solutions
         </h2>
         <img
           loading="lazy"

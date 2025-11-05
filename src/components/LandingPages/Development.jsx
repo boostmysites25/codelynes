@@ -23,21 +23,13 @@ loading="lazy"            data-aos="fade-right"
           />
           <div data-aos="fade-left" className="flex flex-col gap-4">
             <h2 className="text-[2rem] md:text-4xl leading-tight font-semibold">
-              {/* We provide the Best IT solution services */}
-              Codelynes – Crafting Exceptional Digital Experiences
+              Excellence Through Innovation and Expertise
             </h2>
             <p className="">
               {page==="web-development" &&
-                "Our web development services bring your ideas to life with custom-built websites designed to engage users and drive results. From sleek design to seamless functionality, we create digital experiences that captivate and convert, helping your business stand out online."}
+                "We approach every web project with a focus on delivering exceptional value. Our development process combines creative design thinking with technical excellence, resulting in websites that are not just visually appealing but also perform flawlessly. We understand that your website is often the first impression customers have of your business, so we ensure it represents you perfectly."}
               {page==="app-development" &&
-                "Craft innovative mobile apps tailored to your business needs, with designs that captivate users and deliver results. Our apps are meticulously developed to ensure high quality, seamless functionality, and exceptional user experiences across all platforms."}
-              {/* Unlock the full potential of your online presence with our
-              state-of-the-art web development services. At Codelynes, we combine
-              creativity, innovation, and the latest technologies to build
-              custom web solutions that captivate users, boost engagement, and
-              drive business growth. Whether you need a dynamic website, an
-              interactive platform, or a robust e-commerce solution, we deliver
-              tailored digital experiences designed for the future. */}
+                "Our app development philosophy centers on creating solutions that solve real problems and delight users. We combine deep technical expertise with user-centric design principles to build mobile applications that are both powerful and intuitive. Every app we develop undergoes rigorous testing to ensure it meets the highest standards of quality, performance, and user experience."}
             </p>
           </div>
         </div>

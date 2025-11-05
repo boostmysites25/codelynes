@@ -171,27 +171,25 @@ const Banner = () => {
               data-aos="fade-right"
               className="bg-gradient-to-r from-accent-light-blue to-white px-4 py-2 rounded-full text-secondary text-xs md:text-sm font-semibold shadow-codelynes"
             >
-              🚀 IT Services & Technology Solutions
+              💡 Next-Gen Technology Partners
             </p>
             <h1
               data-aos="fade-right"
               className="text-[2.5rem] md:text-5xl lg:text-6xl font-bold leading-tight text-white"
             >
-              Codelynes - Powering the Future with{" "}
+              Transforming Ideas Into{" "}
               <span className="text-gradient-secondary">
-                Intelligent Solutions
+                Digital Excellence
               </span>
             </h1>
             <p
               data-aos="fade-right"
               className="text-base md:text-lg text-gray-200 max-w-2xl leading-relaxed"
             >
-              Harness the full potential of Artificial Intelligence, Blockchain,
-              and Cloud Computing to revolutionize your business processes. We
-              deliver customized, next-gen technology solutions that enhance
-              innovation, optimize efficiency, and open the doors to new growth
-              avenues. Our mission is to empower businesses to thrive in a
-              rapidly evolving digital landscape.
+              We craft innovative software solutions that drive business growth and 
+              competitive advantage. From intelligent automation systems to scalable 
+              cloud platforms, we deliver technology that adapts to your evolving needs. 
+              Partner with us to build digital products that make a lasting impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-4 md:mt-6">
               <Link to="/contact" data-aos="fade-right" className="primary-btn">

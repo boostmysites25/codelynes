@@ -39,15 +39,15 @@ const Banner = ({ page }) => {
             className="text-[2.5rem] md:text-5xl font-bold leading-tight"
           >
             {page === "web-development" &&
-              "Codelynes - Shaping the Future with Advanced AI Solutions"}
+              "Build Powerful Web Solutions That Drive Business Success"}
             {page === "app-development" &&
-              "Codelynes - Elevating Your Business with Cutting-Edge App Development"}
+              "Create Exceptional Mobile Experiences That Engage and Convert"}
           </h1>
           <p data-aos="fade-right" className="text-sm text-gray-500">
             {page === "web-development" &&
-              "Unlock the full potential of your online presence with our state-of-the-art web development services. At Codelynes, we combine creativity, innovation, and the latest technologies to build custom web solutions that captivate users, boost engagement, and drive business growth. Whether you need a dynamic website, an interactive platform, or a robust e-commerce solution, we deliver tailored digital experiences designed for the future."}
+              "Transform your digital presence with expertly crafted websites and web applications. Our team specializes in building responsive, high-performance solutions that not only look stunning but also deliver measurable business results. From intuitive user interfaces to complex backend systems, we create web experiences that engage your audience and drive conversions."}
             {page === "app-development" &&
-              "Harness the power of innovative app development to reach your audience anytime, anywhere. At Codelynes, we specialize in crafting custom mobile and web applications that deliver seamless user experiences, boost engagement, and drive growth. From intuitive interfaces to robust functionalities, our tailored app solutions are designed to help your business thrive in the digital age, empowering you to stay ahead of the competition."}
+              "Elevate your mobile strategy with custom applications designed for peak performance and user satisfaction. We develop native and cross-platform apps that seamlessly integrate with your business processes, providing your customers with intuitive experiences that keep them coming back. Our focus is on creating apps that truly add value to your users' lives."}
           </p>
           <Link data-aos="fade-right" className="primary-btn mt-10">
             Get Started

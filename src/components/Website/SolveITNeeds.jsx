@@ -16,9 +16,9 @@ const SolveITNeeds = () => {
         />
         <div className="absolute h-full w-full bg-black/20"></div>
         <div className="w-full p-10 relative z-10 text-white flex flex-col sm:flex-row items-center justify-between gap-5">
-          <h2 className="heading-2 text-center !text-white">Solve your IT needs today!</h2>
+          <h2 className="heading-2 text-center !text-white">Ready to Transform Your Technology Infrastructure?</h2>
           <Link to="/contact" className="primary-btn">
-            Get Solutions
+            Start Your Project
           </Link>
         </div>
       </div>

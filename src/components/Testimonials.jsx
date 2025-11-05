@@ -37,11 +37,12 @@ const Testimonials = () => {
             <h6 className="font-medium text-secondary">Testimonials</h6>
           </div>
           <h2 className="text-[2rem] md:text-4xl capitalize font-semibold mb-5 text-center lg:text-start lg:max-w-[30rem]">
-            Clients Feedback Examples You
+            What Our Partners Say About Us
           </h2>
           <p className="text-gray-600 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
-            At Codelynes, we take pride in the success of our clients. Here's what
-            some of them have to say about their experience working with us:
+            Our commitment to excellence is reflected in the success stories of 
+            our clients. Discover how Codelynes has helped organizations achieve 
+            their technology goals and drive meaningful business impact:
           </p>
           <img
             width="150"

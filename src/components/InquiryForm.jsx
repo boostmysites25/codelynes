@@ -76,12 +76,12 @@ const InquiryForm = () => {
               </h6>
             </div>
             <h2 data-aos="fade-up" className="heading-2 capitalize">
-              Let’s Collaborate to Innovate
+              Partner With Us for Your Next Project
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              At Codelynes, we’re dedicated to providing technology solutions that
-              transform businesses. Contact us today to discuss how our
-              expertise can support your business goals.
+              Share your project requirements with us, and let's explore how we 
+              can bring your ideas to life. Our team is ready to discuss your 
+              unique challenges and propose innovative solutions tailored to your needs.
             </p>
           </div>
           <form

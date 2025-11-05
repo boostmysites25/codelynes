@@ -49,12 +49,13 @@ const ContactUs = () => {
               <h6 className="font-medium text-secondary">Contact Us</h6>
             </div>
             <h2 data-aos="fade-up" className="heading-2 capitalize">
-              We are ready for your help
+              Let's Build Something Amazing Together
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              We’d love to hear from you! Whether you have a project in mind,
-              need expert guidance, or want to explore how our solutions can
-              benefit your business, we are just a message or phone call away.
+              Have a project idea? Need technical expertise? Want to discuss how 
+              technology can transform your business? Our team is here to listen 
+              and help. Reach out through any channel below, and let's start a 
+              conversation about turning your vision into reality.
             </p>
           </div>
           <div

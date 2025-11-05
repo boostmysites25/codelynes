@@ -59,21 +59,25 @@ const CEOMessage = () => {
         <div data-aos="fade-left" className="flex flex-col gap-6">
           <div className="space-y-4 text-base md:text-lg leading-relaxed text-gray-700">
             <p>
-              At Codelynes, we leverage the power of AI to create transformative
-              digital experiences that elevate businesses. Our commitment to
-              innovation drives us to develop intelligent solutions that enhance
-              efficiency and foster growth.
+              Welcome to Codelynes, where we transform visionary concepts into 
+              powerful digital realities. Our philosophy centers on creating 
+              software solutions that don't just function—they excel. Every 
+              project we undertake is an opportunity to push boundaries and 
+              redefine what's possible in the digital realm.
             </p>
             <p>
-              Together, we can turn your ideas into reality and shape a smarter
-              future. We believe in the power of technology to transform
-              businesses and create lasting value for our clients.
+              What sets us apart is our unwavering dedication to understanding 
+              your unique challenges and crafting bespoke solutions that address 
+              them precisely. We don't believe in one-size-fits-all approaches. 
+              Instead, we dive deep into your business ecosystem to deliver 
+              technology that truly resonates with your goals.
             </p>
             <p>
-              Our team of experts is dedicated to delivering cutting-edge
-              solutions that not only meet your current needs but also
-              anticipate future challenges. We are committed to excellence,
-              innovation, and your success.
+              Our commitment extends beyond code. We're your strategic technology 
+              partners, dedicated to your long-term success. When you choose 
+              Codelynes, you're choosing a team that invests in your growth, 
+              celebrates your victories, and stands by you through every phase 
+              of your digital journey.
             </p>
           </div>
 
@@ -81,7 +85,7 @@ const CEOMessage = () => {
           <div className="mt-6 pt-6 border-t-2 border-primary/20">
             <p className="font-bold text-xl text-gray-900">CEO, Codelynes</p>
             <p className="text-secondary font-medium mt-1">
-              Leading Innovation in Technology Solutions
+              Building Tomorrow's Technology Today
             </p>
           </div>
         </div>

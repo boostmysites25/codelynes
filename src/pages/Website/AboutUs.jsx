@@ -40,15 +40,17 @@ const AboutUs = () => {
               </h6>
             </div>
             <h2 className="heading capitalize mt-5">
-              The world’s IT networking company.
+              Pioneers in digital innovation and software excellence.
             </h2>
             <p className="mt-6">
-              At Codelynes, we are passionate about pushing the boundaries of
-              technology to deliver world-class AI, blockchain, and machine
-              learning solutions to businesses around the globe. Our team is a
-              group of forward-thinking developers, data scientists, and
-              innovators committed to transforming industries with custom
-              AI-driven products and services.
+              Codelynes was founded with a singular vision: to bridge the gap 
+              between ambitious business goals and cutting-edge technology 
+              implementation. Our team brings together seasoned engineers, 
+              creative designers, and strategic consultants who share a common 
+              passion for solving complex challenges through elegant, scalable 
+              solutions. We've built our reputation on delivering projects that 
+              exceed expectations, not just in functionality, but in their ability 
+              to drive tangible business outcomes.
             </p>
           </div>
           <div className="h-full w-full">
@@ -82,7 +84,7 @@ const AboutUs = () => {
             <h6 className="font-medium text-secondary">Work Experience</h6>
           </div>
           <h2 className="text-[2rem] md:text-4xl capitalize text-center lg:text-start font-semibold mb-5">
-            We specialize in custom -tailored
+            Expertise in bespoke solutions
           </h2>
           <img
             loading="lazy"
@@ -159,9 +161,9 @@ const AboutUs = () => {
                 width="100"
                 height="100"
               />
-              <h5 className="text-xl font-semibold">Goal Setting</h5>
+              <h5 className="text-xl font-semibold">Strategic Planning</h5>
               <p className="px-6 text-sm">
-                We define clear goals to align with your vision and needs.
+                We establish clear objectives that align with your business vision and strategic direction.
               </p>
               <img
                 loading="lazy"
@@ -179,9 +181,9 @@ const AboutUs = () => {
                 width="100"
                 height="100"
               />
-              <h5 className="text-xl font-semibold">Select Service</h5>
+              <h5 className="text-xl font-semibold">Solution Design</h5>
               <p className="px-6 text-sm">
-                Choose the right solution tailored to your requirements.
+                We architect the optimal technology solution that perfectly matches your operational needs.
               </p>
               <img
                 loading="lazy"
@@ -199,9 +201,9 @@ const AboutUs = () => {
                 width="100"
                 height="100"
               />
-              <h5 className="text-xl font-semibold">Solve Problem</h5>
+              <h5 className="text-xl font-semibold">Implementation & Success</h5>
               <p className="px-6 text-sm">
-                We deliver smart solutions to overcome any challenges.
+                We execute flawlessly and ensure your solution delivers measurable business impact.
               </p>
             </div>
           </div>
@@ -211,19 +213,20 @@ const AboutUs = () => {
       <section className="wrapper text-center py-12 md:py-16">
         <h1 className="heading mb-6">Who We Are</h1>
         <p className="text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
-          Founded with the mission to drive digital transformation, Codelynes
-          specializes in providing cutting-edge AI, blockchain, and ML services
-          across a wide range of sectors including energy, healthcare,
-          e-commerce, real estate, and more. Our solutions are tailored to the
-          unique needs of each client, ensuring the perfect blend of innovation
-          and practicality.
+          Codelynes stands at the intersection of innovation and execution. We're 
+          a team of technology enthusiasts who see every project as a canvas for 
+          creating something extraordinary. Our journey began with a simple belief: 
+          that exceptional software development should be accessible, transparent, 
+          and results-driven.
           <br />
           <br />
-          With a strong focus on empowering businesses, we offer a comprehensive
-          suite of services that includes cloud computing, data analytics,
-          cybersecurity, and advanced software development. We pride ourselves
-          on delivering intelligent, scalable, and secure solutions that help
-          our clients unlock new opportunities and achieve sustainable growth.
+          Today, we serve clients across diverse industries—from startups seeking 
+          their first digital presence to enterprises requiring complex system 
+          integrations. What unites our projects is our methodology: we start by 
+          listening, continue by collaborating, and finish by delivering solutions 
+          that not only meet but exceed expectations. Our toolkit includes modern 
+          development frameworks, cloud infrastructure expertise, and a commitment 
+          to continuous learning that keeps us at the forefront of technology trends.
         </p>
       </section>
       <CEOMessage />

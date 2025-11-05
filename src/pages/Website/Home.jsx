@@ -28,8 +28,8 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "Codelynes",
-  description:
-    "Codelynes is a globally recognized leader in delivering cutting-edge technology solutions including AI, Machine Learning, Blockchain, and Cloud Computing.",
+    description:
+      "Codelynes is a premier technology solutions provider specializing in custom software development, digital transformation, and innovative technology services that drive business success.",
   image: companyDetails.logo,
   address: {
     "@type": "PostalAddress",
@@ -51,35 +51,35 @@ const Home = () => {
         </title>
         <meta
           name="description"
-          content="Codelynes offers cutting-edge AI, Machine Learning, and Blockchain solutions. Transform your business with our custom software development and technology consulting services."
+          content="Codelynes delivers innovative software solutions and digital transformation services. Partner with us for custom web development, mobile apps, AI/ML solutions, and cloud computing services."
         />
         <meta
           name="keywords"
-          content="AI solutions, Machine Learning, Blockchain, Custom Software Development, Technology Consulting"
+          content="Software Development, Web Development, Mobile App Development, AI Solutions, Cloud Computing, Digital Transformation, Technology Consulting"
         />
-        <link rel="canonical" href="https://www.aiwebx.com" />
+        <link rel="canonical" href="https://www.codelynes.com" />
 
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="Codelynes - Leading AI & Technology Solutions Provider"
+          content="Codelynes - Transforming Ideas Into Digital Excellence"
         />
         <meta
           property="og:description"
-          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from Codelynes."
+          content="Partner with Codelynes for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
         />
         <meta property="og:image" content={aboutImg} />
-        <meta property="og:url" content="https://www.aiwebx.in" />
+        <meta property="og:url" content="https://www.codelynes.com" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Codelynes - Leading AI & Technology Solutions Provider"
+          content="Codelynes - Transforming Ideas Into Digital Excellence"
         />
         <meta
           name="twitter:description"
-          content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions."
+          content="Innovative software solutions and digital transformation services. Custom web development, mobile apps, AI/ML, and cloud computing."
         />
         <meta name="twitter:image" content={aboutImg} />
 
@@ -111,13 +111,14 @@ const Home = () => {
                 </h2>
               </div>
               <h1 data-aos="fade-up" className="heading text-center">
-                We Provide the Best{" "}
-                <span className="text-gradient-secondary">IT Solution Services</span>
+                Comprehensive{" "}
+                <span className="text-gradient-secondary">Technology Services</span>
               </h1>
               <p data-aos="fade-up" className="text-center max-w-3xl text-base md:text-lg">
-                At Codelynes, we offer a full range of advanced technology
-                services designed to empower businesses with scalable,
-                intelligent, and secure solutions.
+                Our diverse portfolio of technology services empowers organizations 
+                to navigate the digital landscape with confidence. We combine technical 
+                expertise with strategic insight to deliver solutions that drive 
+                measurable results.
               </p>
               <div
                 data-aos="fade-up"
@@ -149,8 +150,9 @@ const Home = () => {
                 Industries We Serve
               </h2>
               <p data-aos="fade-up" className="mt-2 text-center mb-6 max-w-3xl text-base md:text-lg">
-                We cater to a wide range of industries, delivering tailored AI
-                and tech solutions to meet specific needs:
+                Our expertise spans multiple sectors, enabling us to deliver 
+                industry-specific solutions that address unique challenges and 
+                unlock new opportunities for growth:
               </p>
             </div>
             <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-7">
@@ -216,17 +218,18 @@ const Home = () => {
                 </div>
                 <div data-aos="fade-left" className="flex flex-col gap-6 justify-center">
                   <h2 className="heading-2">
-                    Our Vision: Empowering Global Businesses with{" "}
-                    <span className="text-gradient-secondary">Intelligent Technology</span>
+                    Our Mission: Delivering{" "}
+                    <span className="text-gradient-secondary">Purpose-Driven Technology</span>
                   </h2>
                   <p className="text-base md:text-lg leading-relaxed">
-                    At Codelynes, we are committed to delivering innovative AI,
-                    Machine Learning, and Blockchain solutions that help
-                    businesses adapt and excel in an increasingly complex and
-                    competitive marketplace.
+                    We believe technology should serve a purpose beyond functionality. 
+                    Our approach combines deep technical knowledge with a genuine 
+                    understanding of your business objectives. We're not just 
+                    developers—we're architects of digital transformation who 
+                    craft solutions that create real value.
                   </p>
                   <Link to="/about-us" className="primary-btn mt-4 w-fit">
-                    Know More About Us
+                    Discover Our Story
                   </Link>
                 </div>
               </div>

@@ -56,7 +56,7 @@ const AssociatedWith = () => {
         data-aos="fade-up"
         className="text-[2rem] md:text-4xl font-semibold wrapper"
       >
-        Associated With
+        Trusted Technology Partners
       </h2>
       <div ref={sliderRef} className="keen-slider mt-[3rem] bg-primary/20">
         {logos.map((img, index) => (

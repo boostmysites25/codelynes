@@ -25,17 +25,16 @@ const Services = ({ page }) => {
           data-aos="fade-up"
           className="text-[2rem] md:text-4xl leading-tight font-semibold text-center max-w-2xl"
         >
-          {/* We provide the Best IT solution services */}
           {page === "web-development" &&
-            "High-Quality Web Development to Transform Your Online Identity"}
+            "Comprehensive Web Solutions Tailored to Your Business Needs"}
           {page === "app-development" &&
-            "Cutting-Edge App Development Services for Powerful Mobile Solutions"}
+            "Complete Mobile App Development Services for Modern Businesses"}
         </h1>
         <p data-aos="fade-up" className="text-center max-w-2xl">
           {page === "web-development" &&
-            "High-performance web development services designed to create secure, scalable, and user-friendly websites that enhance your business's digital presence."}
+            "From responsive corporate websites to complex web applications, we deliver robust, secure, and scalable solutions that enhance your digital footprint and drive meaningful engagement with your target audience."}
           {page === "app-development" &&
-            "High-performance app development services designed to deliver secure, scalable, and user-friendly applications that elevate your business's digital reach and engage your audience."}
+            "We build feature-rich mobile applications that combine stunning design with powerful functionality. Our apps are optimized for performance, security, and user experience across all major platforms."}
         </p>
         <div
           data-aos="fade-up"

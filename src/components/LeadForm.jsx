@@ -63,11 +63,12 @@ const LeadForm = () => {
       >
         <div className="">
           <h2 className="text-[2rem] md:text-4xl font-semibold mb-3">
-            Get in touch with us
+            Start Your Digital Transformation Journey
           </h2>
           <p className="text-gray-700 text-sm mb-5">
-            We are always open to discuss your project, improve your online
-            presence
+            Ready to bring your vision to life? Let's discuss how we can help 
+            elevate your business with innovative technology solutions tailored 
+            to your unique needs.
           </p>
           <form
             onSubmit={handleSubmit(handleFormSubmit)}

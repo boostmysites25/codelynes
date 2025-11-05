@@ -31,8 +31,8 @@ const Footer = () => {
             className="w-[10rem] md:w-[12rem] object-contain mb-4" 
           />
           <p className="text-gray-300 text-sm md:text-base max-w-xs leading-relaxed">
-            Empowering businesses with cutting-edge AI, Blockchain, and Cloud Computing solutions 
-            to drive innovation and growth.
+            We transform ambitious business visions into powerful digital realities through 
+            innovative software solutions, strategic technology consulting, and dedicated partnership.
           </p>
         </div>
         
@@ -159,7 +159,7 @@ const Footer = () => {
       <div className="wrapper relative z-10 mt-8 md:mt-12 pt-6 md:pt-8 border-t border-primary/30">
         <p className="text-center text-gray-400 text-sm md:text-base">
           © {new Date().getFullYear()} Codelynes. All rights reserved. | 
-          <span className="text-secondary ml-1">Empowering Businesses with Technology</span>
+          <span className="text-secondary ml-1">Transforming Ideas Into Digital Excellence</span>
         </p>
       </div>
     </footer>
