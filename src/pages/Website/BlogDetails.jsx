@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import Header from "../../components/Website/Header";
 import Footer from "../../components/Footer";
 import { LazyLoadImage } from "react-lazy-load-image-component";

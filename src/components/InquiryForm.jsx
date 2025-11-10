@@ -122,7 +122,7 @@ const InquiryForm = () => {
                   {...register("email", {
                     required: "Email is required",
                     pattern: {
-                      value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                      value: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
                       message: "Entered email is invalid",
                     },
                   })}
