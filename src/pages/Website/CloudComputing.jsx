@@ -24,7 +24,7 @@ loading="lazy"        data-aos="fade-up"
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, cloud computing has become an
           essential component for businesses seeking to enhance flexibility,
-          scalability, and efficiency. At Codelynes, we offer comprehensive cloud
+          scalability, and efficiency. At INFYNIC, we offer comprehensive cloud
           computing services designed to empower organizations to leverage the
           full potential of cloud technology. Our focus on delivering tailored
           solutions ensures that businesses can adapt to changing demands while
@@ -44,7 +44,7 @@ loading="lazy"        data-aos="fade-up"
           can access advanced technologies without a hefty upfront investment.
           <br />
           <br />
-          At Codelynes, we offer a range of cloud services, including
+          At INFYNIC, we offer a range of cloud services, including
           Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and
           Software as a Service (SaaS). Our IaaS solutions provide businesses
           with virtualized computing resources, enabling them to run
@@ -95,7 +95,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        As technology continues to evolve, Codelynes remains committed to
+        As technology continues to evolve, INFYNIC remains committed to
         exploring new advancements in cloud computing. We stay informed about
         emerging trends and innovations, ensuring that our clients benefit from
         the latest capabilities. Our dedication to continuous improvement drives

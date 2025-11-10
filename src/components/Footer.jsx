@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="w-fit md:col-span-4 lg:col-span-1 md:place-self-center lg:place-self-auto">
           <img 
             src={logo} 
-            alt="Codelynes Logo" 
+            alt="INFYNIC Logo" 
             className="w-[10rem] md:w-[12rem] object-contain mb-4" 
           />
           <p className="text-gray-300 text-sm md:text-base max-w-xs leading-relaxed">
@@ -115,37 +115,37 @@ const Footer = () => {
             {/* Social Media Links */}
             <div className="flex items-center gap-3 mt-2">
               <Link 
-                to="https://www.facebook.com/codelynes" 
+                to="https://www.facebook.com/INFYNIC" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-codelynes transition-all duration-300"
+                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
                 aria-label="Facebook"
               >
                 <FaFacebookF />
               </Link>
               <Link 
-                to="https://www.instagram.com/codelynes" 
+                to="https://www.instagram.com/INFYNIC" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-codelynes transition-all duration-300"
+                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
                 aria-label="Instagram"
               >
                 <FaInstagram />
               </Link>
               <Link 
-                to="https://www.linkedin.com/company/codelynes" 
+                to="https://www.linkedin.com/company/INFYNIC" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-codelynes transition-all duration-300"
+                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin />
               </Link>
               <Link 
-                to="https://twitter.com/codelynes" 
+                to="https://twitter.com/INFYNIC" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-codelynes transition-all duration-300"
+                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
                 aria-label="Twitter"
               >
                 <FaTwitter />
@@ -158,7 +158,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="wrapper relative z-10 mt-8 md:mt-12 pt-6 md:pt-8 border-t border-primary/30">
         <p className="text-center text-gray-400 text-sm md:text-base">
-          © {new Date().getFullYear()} Codelynes. All rights reserved. | 
+          © {new Date().getFullYear()} INFYNIC. All rights reserved. | 
           <span className="text-secondary ml-1">Transforming Ideas Into Digital Excellence</span>
         </p>
       </div>

@@ -27,9 +27,9 @@ const Banner = React.lazy(() => import("../../components/Website/Banner"));
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Codelynes",
+  name: "INFYNIC",
     description:
-      "Codelynes is a premier technology solutions provider specializing in custom software development, digital transformation, and innovative technology services that drive business success.",
+      "INFYNIC is a premier technology solutions provider specializing in custom software development, digital transformation, and innovative technology services that drive business success.",
   image: companyDetails.logo,
   address: {
     "@type": "PostalAddress",
@@ -46,36 +46,36 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Codelynes - Leading AI & Technology Solutions Provider | Custom Software
+          INFYNIC - Leading AI & Technology Solutions Provider | Custom Software
           Development
         </title>
         <meta
           name="description"
-          content="Codelynes delivers innovative software solutions and digital transformation services. Partner with us for custom web development, mobile apps, AI/ML solutions, and cloud computing services."
+          content="INFYNIC delivers innovative software solutions and digital transformation services. Partner with us for custom web development, mobile apps, AI/ML solutions, and cloud computing services."
         />
         <meta
           name="keywords"
           content="Software Development, Web Development, Mobile App Development, AI Solutions, Cloud Computing, Digital Transformation, Technology Consulting"
         />
-        <link rel="canonical" href="https://www.codelynes.com" />
+        <link rel="canonical" href="https://www.INFYNIC.com" />
 
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="Codelynes - Transforming Ideas Into Digital Excellence"
+          content="INFYNIC - Transforming Ideas Into Digital Excellence"
         />
         <meta
           property="og:description"
-          content="Partner with Codelynes for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
+          content="Partner with INFYNIC for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
         />
         <meta property="og:image" content={aboutImg} />
-        <meta property="og:url" content="https://www.codelynes.com" />
+        <meta property="og:url" content="https://www.INFYNIC.com" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Codelynes - Transforming Ideas Into Digital Excellence"
+          content="INFYNIC - Transforming Ideas Into Digital Excellence"
         />
         <meta
           name="twitter:description"
@@ -132,10 +132,10 @@ const Home = () => {
           </section>
 
           <section
-            className="wrapper py-[2rem] md:py-[4rem] flex flex-col gap-6 section-padding"
+            className="py-[2rem] md:py-[4rem] flex flex-col gap-6 section-padding"
             aria-label="Industries We Serve"
           >
-            <div className="flex flex-col gap-4 items-center">
+            <div className="wrapper flex flex-col gap-4 items-center">
               <div data-aos="fade-up" className="flex items-center gap-3">
                 <LazyLoadImage
                   src={line}
@@ -155,12 +155,12 @@ const Home = () => {
                 unlock new opportunities for growth:
               </p>
             </div>
-            <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-7">
+            <div className="wrapper mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-7">
               {industriesCompanyServe.map((item) => (
                 <div
                   key={item.id}
                   data-aos="fade-up"
-                  className="p-6 rounded-xl shadow-codelynes relative group overflow-hidden min-h-[14rem] card-hover"
+                  className="p-6 rounded-xl shadow-infynic relative group overflow-hidden min-h-[14rem] card-hover"
                 >
                   <LazyLoadImage
                     width="200"
@@ -185,7 +185,7 @@ const Home = () => {
             <WorkFlow />
 
             <section
-              className="wrapper pb-10 md:pb-16 flex flex-col items-center gap-6 md:gap-8 z-10 section-padding bg-white"
+              className="wrapper pb-10 md:pb-16 flex flex-col items-center gap-6 md:gap-8 z-10 section-padding"
               aria-label="About Company"
             >
               <div data-aos="fade-up" className="flex items-center gap-3">
@@ -203,10 +203,10 @@ const Home = () => {
                     src={whoWeAre}
                     width="500"
                     height="400"
-                    alt="Codelynes company overview"
-                    className="rounded-xl h-[20rem] md:h-full md:max-h-[28rem] w-full object-cover object-right relative z-10 shadow-codelynes-lg"
+                    alt="INFYNIC company overview"
+                    className="rounded-xl h-[20rem] md:h-full md:max-h-[28rem] w-full object-cover object-right relative z-10 shadow-infynic-lg"
                   />
-                  <div className="w-full sm:w-fit sm:max-w-[20rem] text-white h-full sm:h-fit absolute z-10 md:-bottom-[5rem] bottom-0 left-0 bg-gradient-secondary p-6 md:p-8 rounded-xl shadow-codelynes-lg">
+                  <div className="w-full sm:w-fit sm:max-w-[20rem] text-white h-full sm:h-fit absolute z-10 md:-bottom-[5rem] bottom-0 left-0 bg-gradient-secondary p-6 md:p-8 rounded-xl shadow-infynic-lg">
                     <h3 className="text-5xl md:text-6xl font-bold text-white">2+</h3>
                     <p className="font-semibold mt-3 text-lg text-white">
                       Years of Experience

@@ -25,7 +25,7 @@
   left: 0;
 }
 :root {
-  background: #ffffff;
+  /* background: #ffffff; */
   @apply text-gray-800;
 }
 
@@ -34,7 +34,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 html {
@@ -49,11 +49,11 @@ html {
   }
   
   .primary-btn {
-    @apply bg-gradient-secondary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 text-accent-white hover:-translate-y-1 hover:shadow-codelynes-lg hover:bg-gradient-to-r hover:from-secondary hover:to-secondary-alt cursor-pointer transition-all duration-300 ease-in-out;
+    @apply bg-gradient-secondary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 text-accent-white hover:-translate-y-1 hover:shadow-infynic-lg hover:bg-gradient-to-r hover:from-secondary hover:to-secondary-alt cursor-pointer transition-all duration-300 ease-in-out;
   }
   
   .secondary-btn {
-    @apply bg-primary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 text-gray-800 hover:bg-secondary hover:text-white hover:-translate-y-1 hover:shadow-codelynes cursor-pointer transition-all duration-300 ease-in-out;
+    @apply bg-primary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 text-gray-800 hover:bg-secondary hover:text-white hover:-translate-y-1 hover:shadow-infynic cursor-pointer transition-all duration-300 ease-in-out;
   }
   
   .link {
@@ -90,7 +90,7 @@ html {
   }
   
   .card-hover {
-    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-codelynes-lg;
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-infynic-lg;
   }
   
   .text-gradient-primary {
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Loading Spinner Styles - Updated with Codelynes Colors */
+/* Loading Spinner Styles - Updated with INFYNIC Colors */
 .spinner-parent {
   display: flex;
   justify-content: center;

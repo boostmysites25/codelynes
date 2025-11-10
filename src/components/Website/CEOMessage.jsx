@@ -39,10 +39,10 @@ const CEOMessage = () => {
             <div className="relative z-10">
               <LazyLoadImage
                 src={ceoImage}
-                alt="CEO of Codelynes"
+                alt="CEO of INFYNIC"
                 width="400"
                 height="500"
-                className="rounded-2xl shadow-codelynes-lg object-cover w-full max-w-[400px] h-auto"
+                className="rounded-2xl shadow-infynic-lg object-cover w-full max-w-[400px] h-auto"
                 style={{
                   aspectRatio: "4/5",
                   objectFit: "cover",
@@ -59,7 +59,7 @@ const CEOMessage = () => {
         <div data-aos="fade-left" className="flex flex-col gap-6">
           <div className="space-y-4 text-base md:text-lg leading-relaxed text-gray-700">
             <p>
-              Welcome to Codelynes, where we transform visionary concepts into 
+              Welcome to INFYNIC, where we transform visionary concepts into 
               powerful digital realities. Our philosophy centers on creating 
               software solutions that don't just function—they excel. Every 
               project we undertake is an opportunity to push boundaries and 
@@ -75,7 +75,7 @@ const CEOMessage = () => {
             <p>
               Our commitment extends beyond code. We're your strategic technology 
               partners, dedicated to your long-term success. When you choose 
-              Codelynes, you're choosing a team that invests in your growth, 
+              INFYNIC, you're choosing a team that invests in your growth, 
               celebrates your victories, and stands by you through every phase 
               of your digital journey.
             </p>
@@ -83,7 +83,7 @@ const CEOMessage = () => {
 
           {/* Signature or CEO Name */}
           <div className="mt-6 pt-6 border-t-2 border-primary/20">
-            <p className="font-bold text-xl text-gray-900">CEO, Codelynes</p>
+            <p className="font-bold text-xl text-gray-900">CEO, INFYNIC</p>
             <p className="text-secondary font-medium mt-1">
               Building Tomorrow's Technology Today
             </p>

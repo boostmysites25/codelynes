@@ -23,7 +23,7 @@ loading="lazy"        data-aos="fade-up"
         </h2>
         <p data-aos="fade-up" className="description">
           Blockchain technology is reshaping the modern business landscape,
-          offering unmatched transparency, security, and efficiency. At Codelynes,
+          offering unmatched transparency, security, and efficiency. At INFYNIC,
           we specialize in providing comprehensive blockchain development
           services tailored to meet the unique needs of businesses across
           industries. From secure smart contracts to decentralized applications,
@@ -37,7 +37,7 @@ loading="lazy"        data-aos="fade-up"
           Beyond operational efficiency, blockchain offers opportunities for
           innovation and growth. Companies can use it to manage digital assets,
           enhance supply chain transparency, and enable new business models,
-          such as tokenization and decentralized finance. At Codelynes, we guide
+          such as tokenization and decentralized finance. At INFYNIC, we guide
           organizations through adopting blockchain technologies, ensuring they
           are not only prepared for the future but are at the forefront of
           industry transformation.
@@ -84,7 +84,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        At Codelynes, we harness the power of blockchain to help businesses
+        At INFYNIC, we harness the power of blockchain to help businesses
         modernize their operations. Our expertise includes developing solutions
         that streamline processes, automate agreements, and enhance data
         integrity, making business transactions more secure and trustworthy. By

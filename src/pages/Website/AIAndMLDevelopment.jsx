@@ -25,7 +25,7 @@ loading="lazy"        data-aos="fade-up"
           In an era characterized by rapid technological advancement, artificial
           intelligence (AI) and machine learning (ML) have emerged as
           transformative forces driving innovation across various industries. At
-          Codelynes, we are at the forefront of this revolution, leveraging AI and
+          INFYNIC, we are at the forefront of this revolution, leveraging AI and
           ML to develop intelligent solutions that empower businesses, enhance
           operational efficiency, and create personalized experiences for users.
           Our commitment to harnessing the power of data and advanced algorithms
@@ -94,7 +94,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        At Codelynes, we are not only focused on the present but also on the
+        At INFYNIC, we are not only focused on the present but also on the
         future of AI and ML development. We continuously explore emerging
         technologies and methodologies to stay ahead of industry trends. Our
         commitment to research and development enables us to refine our

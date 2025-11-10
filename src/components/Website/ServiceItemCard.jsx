@@ -6,7 +6,7 @@ const ServiceItemCard = ({ item }) => {
   return (
     <Link
       to={item.link}
-      className="h-full flex flex-col justify-between gap-5 bg-white hover:bg-gradient-secondary border-2 border-primary/20 hover:border-secondary transition-all duration-300 group rounded-xl p-6 shadow-codelynes hover:shadow-codelynes-lg card-hover"
+      className="h-full flex flex-col justify-between gap-5 bg-white hover:bg-gradient-secondary border-2 border-primary/20 hover:border-secondary transition-all duration-300 group rounded-xl p-6 shadow-infynic hover:shadow-infynic-lg card-hover"
       aria-label={`Learn more about ${item.title}`}
     >
       <div className="flex flex-col gap-4 items-start">
@@ -17,7 +17,7 @@ const ServiceItemCard = ({ item }) => {
             loading="lazy"
             src={item.icon}
             alt={`${item.title} service icon`}
-            className="group-hover:scale-110 transition-all duration-300 w-12 h-12 object-contain"
+            className="group-hover:scale-110 transition-all duration-300 w-12 h-12 object-contain group-hover:invert"
           />
         </div>
         <h6 className="font-bold text-xl text-gray-900 group-hover:text-white transition-colors duration-300">

@@ -41,7 +41,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-gray-600 text-sm mb-5 max-w-[30rem] text-center lg:text-start">
             Our commitment to excellence is reflected in the success stories of 
-            our clients. Discover how Codelynes has helped organizations achieve 
+            our clients. Discover how INFYNIC has helped organizations achieve 
             their technology goals and drive meaningful business impact:
           </p>
           <img

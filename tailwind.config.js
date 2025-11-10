@@ -6,26 +6,26 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Codelynes Color Palette
-        'primary': '#C0C0C0', // Silver Gray - Primary
-        'secondary': '#8B0000', // Deep Red - Secondary
-        'secondary-alt': '#FF6F61', // Coral - Secondary Alternative
-        'accent-white': '#FFFFFF', // White - Accent
-        'accent-light-blue': '#D0E8FF', // Light Blue - Accent
-        // Legacy support for existing components
-        'coral': '#FF6F61',
-        'deep-red': '#8B0000',
-        'silver': '#C0C0C0',
+        // Sapphire Veil Color Palette
+        'primary': '#0D1B2A', // Midnight Navy - Primary
+        'secondary': '#1F3C88', // Sapphire Blue - Secondary
+        'secondary-alt': '#3A5BA0', // Luminous Sapphire - Accent
+        'accent-white': '#F5F7FA', // Soft Mist - Accent
+        'accent-light-blue': '#C7D9FF', // Veil Blue - Accent
+        // Legacy aliases for backward compatibility
+        'coral': '#3A5BA0',
+        'deep-red': '#1F3C88',
+        'silver': '#0D1B2A',
       },
       boxShadow: {
         large: "0px 0px 30px 10px",
-        'codelynes': "0 4px 20px rgba(139, 0, 0, 0.15)",
-        'codelynes-lg': "0 10px 40px rgba(139, 0, 0, 0.2)",
+        'infynic': "0 4px 20px rgba(31, 60, 136, 0.18)",
+        'infynic-lg': "0 10px 40px rgba(13, 27, 42, 0.25)",
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #C0C0C0 0%, #8B0000 100%)',
-        'gradient-secondary': 'linear-gradient(135deg, #8B0000 0%, #FF6F61 100%)',
-        'gradient-accent': 'linear-gradient(135deg, #D0E8FF 0%, #FFFFFF 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #0D1B2A 0%, #1F3C88 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, #1F3C88 0%, #3A5BA0 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #C7D9FF 0%, #F5F7FA 100%)',
       },
     },
   },

@@ -23,7 +23,7 @@ const Header = () => {
     <div 
       className={`fixed top-0 z-50 w-full transition-all duration-300 ${
         scrolled 
-          ? "bg-white/95 backdrop-blur-md shadow-codelynes" 
+          ? "bg-white/95 backdrop-blur-md shadow-infynic" 
           : "bg-white/80 backdrop-blur-sm"
       }`}
     >
@@ -31,12 +31,12 @@ const Header = () => {
         <Link
           to="/"
           className="cursor-pointer transition-transform duration-300 hover:scale-105"
-          aria-label="Codelynes Home"
+          aria-label="INFYNIC Home"
         >
           <img
             loading="eager"
             src={logo}
-            alt="Codelynes Logo"
+            alt="INFYNIC Logo"
             width="auto"
             height="auto"
             className="h-[4.5rem] md:h-[5.5rem] lg:h-[6.5rem] object-contain"
@@ -60,7 +60,7 @@ const Header = () => {
             to="/contact"
             className={`${
               pathname === "/contact" && "bg-secondary text-white"
-            } bg-gradient-secondary text-white text-sm lg:text-base font-semibold px-6 py-2.5 rounded-full hover:shadow-codelynes-lg hover:-translate-y-0.5 transition-all duration-300`}
+            } bg-gradient-secondary text-white text-sm lg:text-base font-semibold px-6 py-2.5 rounded-full hover:shadow-infynic-lg hover:-translate-y-0.5 transition-all duration-300`}
           >
             Let's Chat
           </Link>
@@ -92,7 +92,7 @@ const Header = () => {
             src={logo}
             width="auto"
             height="auto"
-            alt="Codelynes Logo"
+            alt="INFYNIC Logo"
             className="h-[3rem] object-contain"
           />
           <button

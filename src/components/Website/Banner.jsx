@@ -36,7 +36,7 @@
 //   <div className="flex flex-col gap-5 md:gap-6 items-start justify-center">
 //     <p
 //       data-aos="fade-right"
-//       className="bg-gradient-to-r from-accent-light-blue to-white px-4 py-2 rounded-full text-secondary text-xs md:text-sm font-semibold shadow-codelynes"
+//       className="bg-gradient-to-r from-accent-light-blue to-white px-4 py-2 rounded-full text-secondary text-xs md:text-sm font-semibold shadow-infynic"
 //     >
 //       🚀 IT Services & Technology Solutions
 //     </p>
@@ -44,7 +44,7 @@
 //       data-aos="fade-right"
 //       className="text-[2.5rem] md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900"
 //     >
-//       Codelynes - Powering the Future with{" "}
+//       INFYNIC - Powering the Future with{" "}
 //       <span className="text-gradient-secondary">Intelligent Solutions</span>
 //     </h1>
 //     <p data-aos="fade-right" className="text-base md:text-lg text-gray-700 max-w-2xl leading-relaxed">
@@ -81,7 +81,7 @@
 //         src={robot}
 //         srcSet={`${robot} 300w, ${robot} 600w, ${robot} 1200w`}
 //         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-//         alt="AI Robot representing Codelynes technology solutions"
+//         alt="AI Robot representing INFYNIC technology solutions"
 //         width="600"
 //         height="400"
 //         className="h-[30vh] md:h-[40vh] lg:h-[50vh] w-full max-w-[500px] object-contain relative z-10"
@@ -169,7 +169,7 @@ const Banner = () => {
           <div className="flex flex-col gap-5 md:gap-6 items-start justify-center">
             <p
               data-aos="fade-right"
-              className="bg-gradient-to-r from-accent-light-blue to-white px-4 py-2 rounded-full text-secondary text-xs md:text-sm font-semibold shadow-codelynes"
+              className="bg-gradient-to-r from-accent-light-blue to-white px-4 py-2 rounded-full text-secondary text-xs md:text-sm font-semibold shadow-infynic"
             >
               💡 Next-Gen Technology Partners
             </p>
@@ -217,7 +217,7 @@ const Banner = () => {
                 src={robot}
                 srcSet={`${robot} 300w, ${robot} 600w, ${robot} 1200w`}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-                alt="AI Robot representing Codelynes technology solutions"
+                alt="AI Robot representing INFYNIC technology solutions"
                 width="600"
                 height="400"
                 className="h-[30vh] md:h-[40vh] lg:h-[50vh] w-full max-w-[500px] object-contain relative z-10"

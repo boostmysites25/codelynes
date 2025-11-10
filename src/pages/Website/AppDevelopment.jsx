@@ -24,7 +24,7 @@ loading="lazy"        data-aos="fade-up"
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, mobile applications have
           become essential tools for businesses aiming to engage their audiences
-          and enhance operational efficiency. At Codelynes, we understand that app
+          and enhance operational efficiency. At INFYNIC, we understand that app
           development is not merely about creating software; it’s about crafting
           user-centric experiences that resonate with users and drive business
           growth. Our expertise in both native and cross-platform development
@@ -101,7 +101,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        At Codelynes, we are committed to staying ahead of technological
+        At INFYNIC, we are committed to staying ahead of technological
         advancements to provide our clients with cutting-edge app solutions. We
         embrace emerging trends that enhance both functionality and user
         experience. Our team prioritizes user interface (UI) and user experience

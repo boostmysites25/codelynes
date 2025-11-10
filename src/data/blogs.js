@@ -202,15 +202,15 @@ export const blogs = [
     FAQs about Creating a Responsive Website
   </h2>
   <ul class="list-disc pl-6 mb-6">
-    <li><strong>Does Codelynes provide responsive website design services?</strong> Yes, Codelynes specializes in creating responsive websites tailored for small businesses.</li>
-    <li><strong>How much does it cost to create a responsive website?</strong> The cost can vary depending on the tools and services you use, ranging from $10–$50 per month for DIY builders to affordable packages from Codelynes.</li>
-    <li><strong>Can I create a responsive website without coding knowledge?</strong> Yes, tools like Wix and Squarespace are beginner-friendly. Codelynes can also help build a professional site tailored to your needs.</li>
-    <li><strong>How long does it take to create a responsive website?</strong> DIY tools can take a few hours, while professional sites by Codelynes may take a few days or weeks.</li>
+    <li><strong>Does INFYNIC provide responsive website design services?</strong> Yes, INFYNIC specializes in creating responsive websites tailored for small businesses.</li>
+    <li><strong>How much does it cost to create a responsive website?</strong> The cost can vary depending on the tools and services you use, ranging from $10–$50 per month for DIY builders to affordable packages from INFYNIC.</li>
+    <li><strong>Can I create a responsive website without coding knowledge?</strong> Yes, tools like Wix and Squarespace are beginner-friendly. INFYNIC can also help build a professional site tailored to your needs.</li>
+    <li><strong>How long does it take to create a responsive website?</strong> DIY tools can take a few hours, while professional sites by INFYNIC may take a few days or weeks.</li>
     <li><strong>Do I need a separate website for mobile users?</strong> No, a responsive website adapts to all devices, removing the need for a separate mobile site.</li>
   </ul>
 
   <p class="hyphen-auto mb-4">
-    A responsive website is essential for your small business in 2024. It ensures great user experiences, boosts your online visibility, and helps you reach your goals efficiently. Codelynes is here to make this journey seamless and successful for you.
+    A responsive website is essential for your small business in 2024. It ensures great user experiences, boosts your online visibility, and helps you reach your goals efficiently. INFYNIC is here to make this journey seamless and successful for you.
   </p>
 `,
   },

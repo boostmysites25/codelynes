@@ -43,7 +43,7 @@ const AboutUs = () => {
               Pioneers in digital innovation and software excellence.
             </h2>
             <p className="mt-6">
-              Codelynes was founded with a singular vision: to bridge the gap 
+              INFYNIC was founded with a singular vision: to bridge the gap 
               between ambitious business goals and cutting-edge technology 
               implementation. Our team brings together seasoned engineers, 
               creative designers, and strategic consultants who share a common 
@@ -213,7 +213,7 @@ const AboutUs = () => {
       <section className="wrapper text-center py-12 md:py-16">
         <h1 className="heading mb-6">Who We Are</h1>
         <p className="text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
-          Codelynes stands at the intersection of innovation and execution. We're 
+          INFYNIC stands at the intersection of innovation and execution. We're 
           a team of technology enthusiasts who see every project as a canvas for 
           creating something extraordinary. Our journey began with a simple belief: 
           that exceptional software development should be accessible, transparent, 
