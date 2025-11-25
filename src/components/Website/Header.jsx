@@ -39,7 +39,7 @@ const Header = () => {
             alt="INFYNIC Logo"
             width="auto"
             height="auto"
-            className="w-[8rem] md:w-[13rem] object-contain"
+            className="w-[4.5rem] md:w-[5.5rem] scale-105 object-contain"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 lg:gap-10" aria-label="Main navigation">

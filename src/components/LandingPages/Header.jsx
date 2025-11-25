@@ -23,7 +23,7 @@ const Header = () => {
             alt="logo"
             width="auto"
             height="auto"
-            className="w-[8rem] md:w-[13rem] object-contain"
+            className="w-[4.5rem] md:w-[5.5rem] scale-105 object-contain"
           />
         </ReactScrollLink>
         <div className="hidden md:flex items-center gap-10">
