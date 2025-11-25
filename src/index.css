@@ -53,7 +53,7 @@ html {
   }
   
   .secondary-btn {
-    @apply bg-primary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 text-gray-800 hover:bg-secondary hover:text-white hover:-translate-y-1 hover:shadow-infynic cursor-pointer transition-all duration-300 ease-in-out;
+    @apply bg-primary text-center rounded-full px-6 md:px-8 text-sm md:text-base font-semibold py-3 md:py-4 hover:bg-secondary text-white hover:-translate-y-1 hover:shadow-infynic cursor-pointer transition-all duration-300 ease-in-out;
   }
   
   .link {
