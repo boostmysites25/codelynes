@@ -21,7 +21,7 @@ const WebDevelopment = () => {
           Web Development
         </h2>
         <p data-aos="fade-up" className="description">
-          At INFYNIC, we recognize that web development is more than just
+          At Codelynes, we recognize that web development is more than just
           building websites; it’s about creating dynamic, interactive
           experiences that empower businesses and engage users. As a leader in
           technology solutions, we leverage cutting-edge practices in web
@@ -32,7 +32,7 @@ const WebDevelopment = () => {
           Understanding Our Approach to Web Development
         </h2>
         <p data-aos="fade-up" className="description">
-          At INFYNIC, our web development services encompass both front-end and
+          At Codelynes, our web development services encompass both front-end and
           back-end development, ensuring a comprehensive approach to each
           project. Our front-end team specializes in creating visually stunning
           and user-friendly interfaces. Utilizing technologies such as HTML,
@@ -105,7 +105,7 @@ const WebDevelopment = () => {
         </div>
       </div>
       <p>
-        At INFYNIC, we envision a future where technology continues to break
+        At Codelynes, we envision a future where technology continues to break
         barriers and create limitless possibilities for businesses. Our
         commitment to innovation drives us to explore new technologies and
         methodologies that will shape the next generation of web solutions. With

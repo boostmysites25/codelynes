@@ -11,9 +11,9 @@ const AIAndMLDevelopment = () => {
   return (
     <div className="flex flex-col gap-10">
       <img
-loading="lazy"        data-aos="fade-up"
+        loading="lazy" data-aos="fade-up"
         src={img1}
-        
+
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="ai&ml development"
       />
@@ -25,7 +25,7 @@ loading="lazy"        data-aos="fade-up"
           In an era characterized by rapid technological advancement, artificial
           intelligence (AI) and machine learning (ML) have emerged as
           transformative forces driving innovation across various industries. At
-          INFYNIC, we are at the forefront of this revolution, leveraging AI and
+          Codelynes, we are at the forefront of this revolution, leveraging AI and
           ML to develop intelligent solutions that empower businesses, enhance
           operational efficiency, and create personalized experiences for users.
           Our commitment to harnessing the power of data and advanced algorithms
@@ -58,7 +58,7 @@ loading="lazy"        data-aos="fade-up"
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="h-full w-full">
           <img
-loading="lazy"            
+            loading="lazy"
             src={img2}
             className="h-full max-h-[20rem] w-full lg:max-h-max object-cover rounded-md"
             alt="app development"
@@ -94,7 +94,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        At INFYNIC, we are not only focused on the present but also on the
+        At Codelynes, we are not only focused on the present but also on the
         future of AI and ML development. We continuously explore emerging
         technologies and methodologies to stay ahead of industry trends. Our
         commitment to research and development enables us to refine our
@@ -105,7 +105,7 @@ loading="lazy"
       <div className="flex w-full justify-between gap-6">
         <Link to={prev.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={prev.icon}
+            loading="lazy" src={prev.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />
@@ -118,7 +118,7 @@ loading="lazy"            src={prev.icon}
         </Link>
         <Link to={next.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={next.icon}
+            loading="lazy" src={next.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />

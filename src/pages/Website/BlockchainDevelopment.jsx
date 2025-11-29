@@ -11,9 +11,9 @@ const BlockchainDevelopment = () => {
   return (
     <div className="flex flex-col gap-10">
       <img
-loading="lazy"        data-aos="fade-up"
+        loading="lazy" data-aos="fade-up"
         src={img1}
-        
+
         className="h-[25rem] object-cover rounded-3xl object-top"
         alt="blockchain"
       />
@@ -23,7 +23,7 @@ loading="lazy"        data-aos="fade-up"
         </h2>
         <p data-aos="fade-up" className="description">
           Blockchain technology is reshaping the modern business landscape,
-          offering unmatched transparency, security, and efficiency. At INFYNIC,
+          offering unmatched transparency, security, and efficiency. At Codelynes,
           we specialize in providing comprehensive blockchain development
           services tailored to meet the unique needs of businesses across
           industries. From secure smart contracts to decentralized applications,
@@ -37,7 +37,7 @@ loading="lazy"        data-aos="fade-up"
           Beyond operational efficiency, blockchain offers opportunities for
           innovation and growth. Companies can use it to manage digital assets,
           enhance supply chain transparency, and enable new business models,
-          such as tokenization and decentralized finance. At INFYNIC, we guide
+          such as tokenization and decentralized finance. At Codelynes, we guide
           organizations through adopting blockchain technologies, ensuring they
           are not only prepared for the future but are at the forefront of
           industry transformation.
@@ -46,7 +46,7 @@ loading="lazy"        data-aos="fade-up"
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="h-full w-full">
           <img
-loading="lazy"            
+            loading="lazy"
             src={img2}
             className="h-full max-h-[20rem] w-full lg:max-h-max object-cover rounded-md"
             alt="blockchain"
@@ -84,7 +84,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        At INFYNIC, we harness the power of blockchain to help businesses
+        At Codelynes, we harness the power of blockchain to help businesses
         modernize their operations. Our expertise includes developing solutions
         that streamline processes, automate agreements, and enhance data
         integrity, making business transactions more secure and trustworthy. By
@@ -95,7 +95,7 @@ loading="lazy"
       <div className="flex w-full justify-between gap-6">
         <Link to={prev.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={prev.icon}
+            loading="lazy" src={prev.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />
@@ -108,7 +108,7 @@ loading="lazy"            src={prev.icon}
         </Link>
         <Link to={next.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={next.icon}
+            loading="lazy" src={next.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />

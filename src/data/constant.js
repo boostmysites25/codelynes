@@ -55,7 +55,7 @@ export const services = [
 // details
 export const companyDetails = {
   logo: logoImg,
-  phone: "+00000000",
+  phone: "+919618353666",
   location: "ABC Street, City, Country",
   email: "abc@xyz.com",
 };
@@ -305,7 +305,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p1.png"),
     designation: "Founder & CEO of DataFlow Systems",
     review:
-      "Working with INFYNIC has been transformative for our business. Their technical expertise in developing our custom analytics platform was exceptional. The team understood our complex requirements and delivered a solution that has doubled our operational efficiency. What impressed us most was their proactive communication and willingness to go above and beyond.",
+      "Working with Codelynes has been transformative for our business. Their technical expertise in developing our custom analytics platform was exceptional. The team understood our complex requirements and delivered a solution that has doubled our operational efficiency. What impressed us most was their proactive communication and willingness to go above and beyond.",
   },
   {
     id: 2,
@@ -313,7 +313,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p2.png"),
     designation: "VP of Digital Strategy at SecureBank",
     review:
-      "INFYNIC delivered a robust blockchain-based transaction system that has revolutionized how we process financial operations. Their attention to security and scalability was evident throughout the project. The implementation was smooth, and their ongoing support has been invaluable. They truly understand enterprise-level requirements.",
+      "Codelynes delivered a robust blockchain-based transaction system that has revolutionized how we process financial operations. Their attention to security and scalability was evident throughout the project. The implementation was smooth, and their ongoing support has been invaluable. They truly understand enterprise-level requirements.",
   },
   {
     id: 3,
@@ -321,7 +321,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p3.png"),
     designation: "Head of Product at RetailMax",
     review:
-      "Our mobile commerce platform developed by INFYNIC has transformed our customer experience. The app's performance and user interface are outstanding. They managed our tight timeline without compromising quality, and the results speak for themselves—we've seen a 40% increase in mobile sales since launch.",
+      "Our mobile commerce platform developed by Codelynes has transformed our customer experience. The app's performance and user interface are outstanding. They managed our tight timeline without compromising quality, and the results speak for themselves—we've seen a 40% increase in mobile sales since launch.",
   },
   {
     id: 4,
@@ -329,7 +329,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p4.png"),
     designation: "Chief Technology Officer at MedTech Innovations",
     review:
-      "The cloud migration project handled by INFYNIC was executed flawlessly. They assessed our legacy systems, created a comprehensive migration strategy, and executed it with minimal downtime. Their team's deep understanding of cloud architecture and security best practices made this transition seamless for our organization.",
+      "The cloud migration project handled by Codelynes was executed flawlessly. They assessed our legacy systems, created a comprehensive migration strategy, and executed it with minimal downtime. Their team's deep understanding of cloud architecture and security best practices made this transition seamless for our organization.",
   },
   {
     id: 5,
@@ -337,7 +337,7 @@ export const testimonials = [
     img: require("../assets/images/testimonials/review-p5.png"),
     designation: "Director of Learning & Development at EduVantage",
     review:
-      "Our VR training modules developed by INFYNIC have exceeded all expectations. The immersive learning experiences they created have significantly improved our training outcomes. Their creative approach combined with technical excellence resulted in a solution that's both innovative and practical. The team was collaborative, responsive, and truly invested in our success.",
+      "Our VR training modules developed by Codelynes have exceeded all expectations. The immersive learning experiences they created have significantly improved our training outcomes. Their creative approach combined with technical excellence resulted in a solution that's both innovative and practical. The team was collaborative, responsive, and truly invested in our success.",
   },
 ];
 

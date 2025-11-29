@@ -27,9 +27,9 @@ const Banner = React.lazy(() => import("../../components/Website/Banner"));
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "INFYNIC",
-    description:
-      "INFYNIC is a premier technology solutions provider specializing in custom software development, digital transformation, and innovative technology services that drive business success.",
+  name: "Codelynes",
+  description:
+    "Codelynes is a premier technology solutions provider specializing in custom software development, digital transformation, and innovative technology services that drive business success.",
   image: companyDetails.logo,
   address: {
     "@type": "PostalAddress",
@@ -46,36 +46,36 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          INFYNIC - Leading AI & Technology Solutions Provider | Custom Software
+          Codelynes - Leading AI & Technology Solutions Provider | Custom Software
           Development
         </title>
         <meta
           name="description"
-          content="INFYNIC delivers innovative software solutions and digital transformation services. Partner with us for custom web development, mobile apps, AI/ML solutions, and cloud computing services."
+          content="Codelynes delivers innovative software solutions and digital transformation services. Partner with us for custom web development, mobile apps, AI/ML solutions, and cloud computing services."
         />
         <meta
           name="keywords"
           content="Software Development, Web Development, Mobile App Development, AI Solutions, Cloud Computing, Digital Transformation, Technology Consulting"
         />
-        <link rel="canonical" href="https://www.INFYNIC.com" />
+        <link rel="canonical" href="https://www.Codelynes.com" />
 
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="INFYNIC - Transforming Ideas Into Digital Excellence"
+          content="Codelynes - Transforming Ideas Into Digital Excellence"
         />
         <meta
           property="og:description"
-          content="Partner with INFYNIC for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
+          content="Partner with Codelynes for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
         />
         <meta property="og:image" content={aboutImg} />
-        <meta property="og:url" content="https://www.INFYNIC.com" />
+        <meta property="og:url" content="https://www.Codelynes.com" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="INFYNIC - Transforming Ideas Into Digital Excellence"
+          content="Codelynes - Transforming Ideas Into Digital Excellence"
         />
         <meta
           name="twitter:description"
@@ -115,9 +115,9 @@ const Home = () => {
                 <span className="text-gradient-secondary">Technology Services</span>
               </h1>
               <p data-aos="fade-up" className="text-center max-w-3xl text-base md:text-lg">
-                Our diverse portfolio of technology services empowers organizations 
-                to navigate the digital landscape with confidence. We combine technical 
-                expertise with strategic insight to deliver solutions that drive 
+                Our diverse portfolio of technology services empowers organizations
+                to navigate the digital landscape with confidence. We combine technical
+                expertise with strategic insight to deliver solutions that drive
                 measurable results.
               </p>
               <div
@@ -150,8 +150,8 @@ const Home = () => {
                 Industries We Serve
               </h2>
               <p data-aos="fade-up" className="mt-2 text-center mb-6 max-w-3xl text-base md:text-lg">
-                Our expertise spans multiple sectors, enabling us to deliver 
-                industry-specific solutions that address unique challenges and 
+                Our expertise spans multiple sectors, enabling us to deliver
+                industry-specific solutions that address unique challenges and
                 unlock new opportunities for growth:
               </p>
             </div>
@@ -203,7 +203,7 @@ const Home = () => {
                     src={whoWeAre}
                     width="500"
                     height="400"
-                    alt="INFYNIC company overview"
+                    alt="Codelynes company overview"
                     className="rounded-xl h-[20rem] md:h-full md:max-h-[28rem] w-full object-cover object-right relative z-10 shadow-infynic-lg"
                   />
                   <div className="w-full sm:w-fit sm:max-w-[20rem] text-white h-full sm:h-fit absolute z-10 md:-bottom-[5rem] bottom-0 left-0 bg-gradient-secondary p-6 md:p-8 rounded-xl shadow-infynic-lg">
@@ -222,10 +222,10 @@ const Home = () => {
                     <span className="text-gradient-secondary">Purpose-Driven Technology</span>
                   </h2>
                   <p className="text-base md:text-lg leading-relaxed">
-                    We believe technology should serve a purpose beyond functionality. 
-                    Our approach combines deep technical knowledge with a genuine 
-                    understanding of your business objectives. We're not just 
-                    developers—we're architects of digital transformation who 
+                    We believe technology should serve a purpose beyond functionality.
+                    Our approach combines deep technical knowledge with a genuine
+                    understanding of your business objectives. We're not just
+                    developers—we're architects of digital transformation who
                     craft solutions that create real value.
                   </p>
                   <Link to="/about-us" className="primary-btn mt-4 w-fit">

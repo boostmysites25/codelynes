@@ -1,11 +1,9 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import line from "../../assets/images/line.png";
+import ceoImage from "../../assets/images/ceo.webp";
 
 const CEOMessage = () => {
-  const ceoImage =
-    "https://www.n2growth.com/wp-content/uploads/2019/08/happy-ceo-at-desk.jpg";
-
   return (
     <section
       className="wrapper py-12 md:py-16 lg:py-20 section-padding bg-gradient-to-br from-white via-accent-light-blue/10 to-white"
@@ -39,7 +37,7 @@ const CEOMessage = () => {
             <div className="relative z-10">
               <LazyLoadImage
                 src={ceoImage}
-                alt="CEO of INFYNIC"
+                alt="CEO of Codelynes"
                 width="400"
                 height="500"
                 className="rounded-2xl shadow-infynic-lg object-cover w-full max-w-[400px] h-auto"
@@ -59,31 +57,31 @@ const CEOMessage = () => {
         <div data-aos="fade-left" className="flex flex-col gap-6">
           <div className="space-y-4 text-base md:text-lg leading-relaxed text-gray-700">
             <p>
-              Welcome to INFYNIC, where we transform visionary concepts into 
-              powerful digital realities. Our philosophy centers on creating 
-              software solutions that don't just function—they excel. Every 
-              project we undertake is an opportunity to push boundaries and 
+              Welcome to Codelynes, where we transform visionary concepts into
+              powerful digital realities. Our philosophy centers on creating
+              software solutions that don't just function—they excel. Every
+              project we undertake is an opportunity to push boundaries and
               redefine what's possible in the digital realm.
             </p>
             <p>
-              What sets us apart is our unwavering dedication to understanding 
-              your unique challenges and crafting bespoke solutions that address 
-              them precisely. We don't believe in one-size-fits-all approaches. 
-              Instead, we dive deep into your business ecosystem to deliver 
+              What sets us apart is our unwavering dedication to understanding
+              your unique challenges and crafting bespoke solutions that address
+              them precisely. We don't believe in one-size-fits-all approaches.
+              Instead, we dive deep into your business ecosystem to deliver
               technology that truly resonates with your goals.
             </p>
             <p>
-              Our commitment extends beyond code. We're your strategic technology 
-              partners, dedicated to your long-term success. When you choose 
-              INFYNIC, you're choosing a team that invests in your growth, 
-              celebrates your victories, and stands by you through every phase 
+              Our commitment extends beyond code. We're your strategic technology
+              partners, dedicated to your long-term success. When you choose
+              Codelynes, you're choosing a team that invests in your growth,
+              celebrates your victories, and stands by you through every phase
               of your digital journey.
             </p>
           </div>
 
           {/* Signature or CEO Name */}
           <div className="mt-6 pt-6 border-t-2 border-primary/20">
-            <p className="font-bold text-xl text-gray-900">CEO, INFYNIC</p>
+            <p className="font-bold text-xl text-gray-900">CEO, INFYNIC to CEO Codelynes</p>
             <p className="text-secondary font-medium mt-1">
               Building Tomorrow's Technology Today
             </p>

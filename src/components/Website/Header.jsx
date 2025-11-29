@@ -20,26 +20,25 @@ const Header = () => {
   }, []);
 
   return (
-    <div 
-      className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-        scrolled 
-          ? "bg-white/95 backdrop-blur-md shadow-infynic" 
+    <div
+      className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled
+          ? "bg-white/95 backdrop-blur-md shadow-infynic"
           : "bg-white/80 backdrop-blur-sm"
-      }`}
+        }`}
     >
       <div className="flex wrapper items-center gap-8 justify-between py-2 md:py-3">
         <Link
           to="/"
           className="cursor-pointer transition-transform duration-300 hover:scale-105"
-          aria-label="INFYNIC Home"
+          aria-label="Codelynes Home"
         >
           <img
             loading="eager"
             src={logo}
-            alt="INFYNIC Logo"
+            alt="Codelynes Logo"
             width="auto"
             height="auto"
-            className="w-[4.5rem] md:w-[5.5rem] scale-105 object-contain"
+            className="w-[8rem] md:w-[10rem] object-contain"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 lg:gap-10" aria-label="Main navigation">
@@ -47,9 +46,8 @@ const Header = () => {
             .filter((item) => item.link !== "/contact")
             .map((item) => (
               <Link
-                className={`${
-                  pathname === item.link && "active-item"
-                } text-sm lg:text-base cursor-pointer text-gray-700 hover:text-secondary transition-all duration-300 font-medium relative`}
+                className={`${pathname === item.link && "active-item"
+                  } text-sm lg:text-base cursor-pointer text-gray-700 hover:text-secondary transition-all duration-300 font-medium relative`}
                 key={item.id}
                 to={item.link}
               >
@@ -58,9 +56,8 @@ const Header = () => {
             ))}
           <Link
             to="/contact"
-            className={`${
-              pathname === "/contact" && "bg-secondary text-white"
-            } bg-gradient-secondary text-white text-sm lg:text-base font-semibold px-6 py-2.5 rounded-full hover:shadow-infynic-lg hover:-translate-y-0.5 transition-all duration-300`}
+            className={`${pathname === "/contact" && "bg-secondary text-white"
+              } bg-gradient-secondary text-white text-sm lg:text-base font-semibold px-6 py-2.5 rounded-full hover:shadow-infynic-lg hover:-translate-y-0.5 transition-all duration-300`}
           >
             Let's Chat
           </Link>
@@ -92,7 +89,7 @@ const Header = () => {
             src={logo}
             width="auto"
             height="auto"
-            alt="INFYNIC Logo"
+            alt="Codelynes Logo"
             className="h-[3rem] object-contain"
           />
           <button
@@ -108,11 +105,10 @@ const Header = () => {
             <Link
               onClick={() => setIsOpen(false)}
               key={id}
-              className={`text-xl font-semibold transition-colors duration-200 link ${
-                pathname === link 
-                  ? "text-secondary border-l-4 border-secondary pl-4" 
+              className={`text-xl font-semibold transition-colors duration-200 link ${pathname === link
+                  ? "text-secondary border-l-4 border-secondary pl-4"
                   : "text-gray-700 hover:text-secondary"
-              }`}
+                }`}
               to={link}
             >
               {label}

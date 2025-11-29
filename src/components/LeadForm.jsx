@@ -34,7 +34,7 @@ const LeadForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from INFYNIC",
+      subject: "You have a new message from Codelynes",
       body: emailBody,
     };
 
@@ -66,8 +66,8 @@ const LeadForm = () => {
             Start Your Digital Transformation Journey
           </h2>
           <p className="text-gray-700 text-sm mb-5">
-            Ready to bring your vision to life? Let's discuss how we can help 
-            elevate your business with innovative technology solutions tailored 
+            Ready to bring your vision to life? Let's discuss how we can help
+            elevate your business with innovative technology solutions tailored
             to your unique needs.
           </p>
           <form

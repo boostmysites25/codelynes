@@ -21,21 +21,21 @@ const Footer = () => {
     >
       {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900/95 via-gray-900/90 to-gray-900/95"></div>
-      
+
       <div className="wrapper relative z-10 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-[50%_20%_30%] gap-8 md:gap-10">
         {/* Company Info */}
         <div className="w-fit md:col-span-4 lg:col-span-1 md:place-self-center lg:place-self-auto">
-          <img 
-            src={logo} 
-            alt="INFYNIC Logo" 
-            className="w-[10rem] md:w-[12rem] object-contain mb-4" 
+          <img
+            src={logo}
+            alt="Codelynes Logo"
+            className="w-[10rem] md:w-[12rem] object-contain mb-4"
           />
           <p className="text-gray-300 text-sm md:text-base max-w-xs leading-relaxed">
-            We transform ambitious business visions into powerful digital realities through 
+            We transform ambitious business visions into powerful digital realities through
             innovative software solutions, strategic technology consulting, and dedicated partnership.
           </p>
         </div>
-        
+
         {/* Services */}
         <div className="md:col-span-2 lg:col-span-1 flex flex-col gap-5">
           <h6 className="text-xl font-bold text-white border-b-2 border-secondary/30 pb-2 w-fit">
@@ -45,8 +45,8 @@ const Footer = () => {
             <ul className="flex flex-col gap-3">
               {services.map(({ id, title, link }) => (
                 <li key={id}>
-                  <Link 
-                    to={link} 
+                  <Link
+                    to={link}
                     className="text-gray-300 hover:text-secondary transition-colors duration-200 hover:translate-x-1 inline-block"
                   >
                     {title}
@@ -56,7 +56,7 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
-        
+
         {/* Contact Info */}
         <div className="md:col-span-2 lg:col-span-1 flex flex-col gap-5">
           <h6 className="text-xl font-bold text-white border-b-2 border-secondary/30 pb-2 w-fit">
@@ -73,7 +73,7 @@ const Footer = () => {
                     className="w-5 h-5 object-contain filter brightness-0 invert group-hover:scale-110 transition-transform duration-200"
                   />
                 </div>
-                <a 
+                <a
                   href={`mailto:${companyDetails.email}`}
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
@@ -90,7 +90,7 @@ const Footer = () => {
                     className="w-5 h-5 object-contain filter brightness-0 invert group-hover:scale-110 transition-transform duration-200"
                   />
                 </div>
-                <a 
+                <a
                   href={`tel:${companyDetails.phone}`}
                   className="text-gray-300 hover:text-white transition-colors duration-200"
                 >
@@ -111,11 +111,11 @@ const Footer = () => {
                 </span>
               </li>
             </ul>
-            
+
             {/* Social Media Links */}
             <div className="flex items-center gap-3 mt-2">
-              <Link 
-                to="https://www.facebook.com/INFYNIC" 
+              <Link
+                to="https://www.facebook.com/profile.php?id=61583882587916"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
@@ -123,8 +123,8 @@ const Footer = () => {
               >
                 <FaFacebookF />
               </Link>
-              <Link 
-                to="https://www.instagram.com/INFYNIC" 
+              <Link
+                to="https://www.instagram.com/codelynes_/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
@@ -132,17 +132,8 @@ const Footer = () => {
               >
                 <FaInstagram />
               </Link>
-              <Link 
-                to="https://www.linkedin.com/company/INFYNIC" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin />
-              </Link>
-              <Link 
-                to="https://twitter.com/INFYNIC" 
+              <Link
+                to=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"
@@ -154,11 +145,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Copyright */}
       <div className="wrapper relative z-10 mt-8 md:mt-12 pt-6 md:pt-8 border-t border-primary/30">
         <p className="text-center text-gray-400 text-sm md:text-base">
-          © {new Date().getFullYear()} INFYNIC. All rights reserved. | 
+          © {new Date().getFullYear()} Codelynes. All rights reserved. |
           <span className="text-secondary ml-1">Transforming Ideas Into Digital Excellence</span>
         </p>
       </div>

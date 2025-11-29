@@ -36,7 +36,7 @@ const InquiryForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from INFYNIC",
+      subject: "You have a new message from Codelynes",
       body: emailBody,
     };
 
@@ -79,8 +79,8 @@ const InquiryForm = () => {
               Partner With Us for Your Next Project
             </h2>
             <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              Share your project requirements with us, and let's explore how we 
-              can bring your ideas to life. Our team is ready to discuss your 
+              Share your project requirements with us, and let's explore how we
+              can bring your ideas to life. Our team is ready to discuss your
               unique challenges and propose innovative solutions tailored to your needs.
             </p>
           </div>

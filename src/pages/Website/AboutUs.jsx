@@ -43,13 +43,13 @@ const AboutUs = () => {
               Pioneers in digital innovation and software excellence.
             </h2>
             <p className="mt-6">
-              INFYNIC was founded with a singular vision: to bridge the gap 
-              between ambitious business goals and cutting-edge technology 
-              implementation. Our team brings together seasoned engineers, 
-              creative designers, and strategic consultants who share a common 
-              passion for solving complex challenges through elegant, scalable 
-              solutions. We've built our reputation on delivering projects that 
-              exceed expectations, not just in functionality, but in their ability 
+              Codelynes was founded with a singular vision: to bridge the gap
+              between ambitious business goals and cutting-edge technology
+              implementation. Our team brings together seasoned engineers,
+              creative designers, and strategic consultants who share a common
+              passion for solving complex challenges through elegant, scalable
+              solutions. We've built our reputation on delivering projects that
+              exceed expectations, not just in functionality, but in their ability
               to drive tangible business outcomes.
             </p>
           </div>
@@ -213,19 +213,19 @@ const AboutUs = () => {
       <section className="wrapper text-center py-12 md:py-16">
         <h1 className="heading mb-6">Who We Are</h1>
         <p className="text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
-          INFYNIC stands at the intersection of innovation and execution. We're 
-          a team of technology enthusiasts who see every project as a canvas for 
-          creating something extraordinary. Our journey began with a simple belief: 
-          that exceptional software development should be accessible, transparent, 
+          Codelynes stands at the intersection of innovation and execution. We're
+          a team of technology enthusiasts who see every project as a canvas for
+          creating something extraordinary. Our journey began with a simple belief:
+          that exceptional software development should be accessible, transparent,
           and results-driven.
           <br />
           <br />
-          Today, we serve clients across diverse industries—from startups seeking 
-          their first digital presence to enterprises requiring complex system 
-          integrations. What unites our projects is our methodology: we start by 
-          listening, continue by collaborating, and finish by delivering solutions 
-          that not only meet but exceed expectations. Our toolkit includes modern 
-          development frameworks, cloud infrastructure expertise, and a commitment 
+          Today, we serve clients across diverse industries—from startups seeking
+          their first digital presence to enterprises requiring complex system
+          integrations. What unites our projects is our methodology: we start by
+          listening, continue by collaborating, and finish by delivering solutions
+          that not only meet but exceed expectations. Our toolkit includes modern
+          development frameworks, cloud infrastructure expertise, and a commitment
           to continuous learning that keeps us at the forefront of technology trends.
         </p>
       </section>

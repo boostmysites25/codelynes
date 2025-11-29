@@ -41,7 +41,7 @@ const Banner = () => {
     <div
       id="banner"
       className="min-h-screen bannermin-h-screen w-full relative flex justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
-            style={{ backgroundImage: `url(${bannerImg})` }}
+      style={{ backgroundImage: `url(${bannerImg})` }}
     >
 
       {/* Decorative Elements */}
@@ -100,7 +100,7 @@ const Banner = () => {
                 src={robot}
                 srcSet={`${robot} 300w, ${robot} 600w, ${robot} 1200w`}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
-                alt="AI Robot representing INFYNIC technology solutions"
+                alt="AI Robot representing Codelynes technology solutions"
                 width="600"
                 height="400"
                 className="h-[30vh] md:h-[40vh] lg:h-[50vh] w-full max-w-[500px] object-contain relative z-10"

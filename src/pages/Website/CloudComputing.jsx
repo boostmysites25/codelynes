@@ -11,9 +11,9 @@ const CloudComputing = () => {
   return (
     <div className="flex flex-col gap-10">
       <img
-loading="lazy"        data-aos="fade-up"
+        loading="lazy" data-aos="fade-up"
         src={img1}
-        
+
         className="h-[25rem] object-cover rounded-3xl object-center"
         alt="cloud computing"
       />
@@ -24,7 +24,7 @@ loading="lazy"        data-aos="fade-up"
         <p data-aos="fade-up" className="description">
           In today's fast-paced digital landscape, cloud computing has become an
           essential component for businesses seeking to enhance flexibility,
-          scalability, and efficiency. At INFYNIC, we offer comprehensive cloud
+          scalability, and efficiency. At Codelynes, we offer comprehensive cloud
           computing services designed to empower organizations to leverage the
           full potential of cloud technology. Our focus on delivering tailored
           solutions ensures that businesses can adapt to changing demands while
@@ -44,7 +44,7 @@ loading="lazy"        data-aos="fade-up"
           can access advanced technologies without a hefty upfront investment.
           <br />
           <br />
-          At INFYNIC, we offer a range of cloud services, including
+          At Codelynes, we offer a range of cloud services, including
           Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and
           Software as a Service (SaaS). Our IaaS solutions provide businesses
           with virtualized computing resources, enabling them to run
@@ -57,7 +57,7 @@ loading="lazy"        data-aos="fade-up"
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="h-full w-full">
           <img
-loading="lazy"            
+            loading="lazy"
             src={img2}
             className="h-full max-h-[20rem] w-full lg:max-h-max object-cover rounded-md"
             alt="cloud computing"
@@ -95,7 +95,7 @@ loading="lazy"
         </div>
       </div>
       <p>
-        As technology continues to evolve, INFYNIC remains committed to
+        As technology continues to evolve, Codelynes remains committed to
         exploring new advancements in cloud computing. We stay informed about
         emerging trends and innovations, ensuring that our clients benefit from
         the latest capabilities. Our dedication to continuous improvement drives
@@ -106,7 +106,7 @@ loading="lazy"
       <div className="flex w-full justify-between gap-6">
         <Link to={prev.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={prev.icon}
+            loading="lazy" src={prev.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />
@@ -119,7 +119,7 @@ loading="lazy"            src={prev.icon}
         </Link>
         <Link to={next.link} className="flex items-center gap-3">
           <img
-loading="lazy"            src={next.icon}
+            loading="lazy" src={next.icon}
             alt=""
             className="w-[3rem] h-[3rem] hidden sm:inline-block object-contain grayscale"
           />
