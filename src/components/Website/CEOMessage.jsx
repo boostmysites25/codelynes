@@ -81,7 +81,7 @@ const CEOMessage = () => {
 
           {/* Signature or CEO Name */}
           <div className="mt-6 pt-6 border-t-2 border-primary/20">
-            <p className="font-bold text-xl text-gray-900">CEO, INFYNIC to CEO Codelynes</p>
+            <p className="font-bold text-xl text-gray-900">CEO, Codelynes</p>
             <p className="text-secondary font-medium mt-1">
               Building Tomorrow's Technology Today
             </p>

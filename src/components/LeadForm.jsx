@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import img from "../assets/images/contact.webp";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 import { companyDetails } from "../data/constant";
 import toast from "react-hot-toast";
 import { SpinnerContext } from "./SpinnerContext";
 
 const LeadForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -36,9 +38,10 @@ const LeadForm = () => {
       to: companyDetails.email,
       subject: "You have a new message from Codelynes",
       body: emailBody,
+      name:"Codelynes"
     };
 
-    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
+    await fetch("https://send-mail-redirect-boostmysites.vercel.app/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -49,6 +52,10 @@ const LeadForm = () => {
       .then(() => {
         toast.success("Email sent successfully");
         reset();
+        // Redirect to thank you page after a short delay
+        setTimeout(() => {
+          navigate("/thank-you");
+        }, 1000);
       })
       .catch((error) => {
         toast.error(error.message);

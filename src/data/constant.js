@@ -56,8 +56,8 @@ export const services = [
 export const companyDetails = {
   logo: logoImg,
   phone: "+919618353666",
-  location: "ABC Street, City, Country",
-  email: "abc@xyz.com",
+  location: "Andhra Pradesh, Visakhapatnam, 530003",
+  email: "info@codelynes.com",
 };
 
 export const landingPageNavLinks = [

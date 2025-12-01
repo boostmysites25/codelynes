@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaInstagram,
-  FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
 import { companyDetails, services } from "../data/constant";
@@ -133,7 +132,7 @@ const Footer = () => {
                 <FaInstagram />
               </Link>
               <Link
-                to=""
+                to="https://x.com/SastryOfficial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-secondary/20 hover:bg-secondary text-white w-12 h-12 rounded-full flex justify-center items-center text-xl hover:-translate-y-1 hover:shadow-infynic transition-all duration-300"

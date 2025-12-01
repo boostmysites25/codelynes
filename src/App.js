@@ -36,6 +36,7 @@ const CloudComputing = React.lazy(() =>
 );
 const VRAndAR = React.lazy(() => import("./pages/Website/VRAndAR"));
 const ContactUs = React.lazy(() => import("./pages/Website/ContactUs"));
+const ThankYou = React.lazy(() => import("./pages/Website/ThankYou"));
 const LandingPage = React.lazy(() => import("./pages/LandingPage/LandingPage"));
 
 AOS.init({
@@ -82,6 +83,7 @@ function App() {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<OurServices />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/:title" element={<BlogDetails />} />
 
