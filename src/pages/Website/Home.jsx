@@ -18,6 +18,7 @@ import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import { Link } from "react-router-dom";
 import WorkFlow from "../../components/WorkFlow";
 import CEOMessage from "../../components/Website/CEOMessage";
+import { canonicalUrl } from "../../utils/seo";
 
 // Lazy load components for better performance
 const Header = React.lazy(() => import("../../components/Website/Header"));
@@ -57,7 +58,7 @@ const Home = () => {
           name="keywords"
           content="Software Development, Web Development, Mobile App Development, AI Solutions, Cloud Computing, Digital Transformation, Technology Consulting"
         />
-        <link rel="canonical" href="https://www.Codelynes.com" />
+        <link rel="canonical" href={canonicalUrl("/")} />
 
         {/* Open Graph Tags */}
         <meta
@@ -69,7 +70,7 @@ const Home = () => {
           content="Partner with Codelynes for innovative software solutions that drive business growth. We craft custom web and mobile applications, AI-powered systems, and scalable cloud platforms."
         />
         <meta property="og:image" content={aboutImg} />
-        <meta property="og:url" content="https://www.Codelynes.com" />
+        <meta property="og:url" content={canonicalUrl("/")} />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />

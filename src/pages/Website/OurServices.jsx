@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Header from "../../components/Website/Header";
 import banner from "../../assets/images/our-services-banner.webp";
 import { services } from "../../data/constant";
@@ -7,10 +8,19 @@ import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import Footer from "../../components/Footer";
 import Testimonials from "../../components/Testimonials";
 import SolveITNeeds from "../../components/Website/SolveITNeeds";
+import { canonicalUrl } from "../../utils/seo";
 
 const OurServices = () => {
   return (
     <div className="landing-bg">
+      <Helmet>
+        <title>Services - Codelynes</title>
+        <meta
+          name="description"
+          content="Explore Codelynes services: web development, mobile app development, AI/ML solutions, blockchain, cloud computing, and VR/AR experiences."
+        />
+        <link rel="canonical" href={canonicalUrl("/services")} />
+      </Helmet>
       <Header />
       <div data-aos="fade-down" className="h-[50vh] md:h-[60vh]">
         <img

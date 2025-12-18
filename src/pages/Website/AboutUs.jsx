@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Header from "../../components/Website/Header";
 import banner from "../../assets/images/about-us-page-banner.webp";
 import line from "../../assets/images/line.png";
@@ -15,10 +16,19 @@ import arrow from "../../assets/images/icons/Arrow.png";
 import SolveITNeeds from "../../components/Website/SolveITNeeds";
 import Footer from "../../components/Footer";
 import CEOMessage from "../../components/Website/CEOMessage";
+import { canonicalUrl } from "../../utils/seo";
 
 const AboutUs = () => {
   return (
     <div className="landing-bg">
+      <Helmet>
+        <title>About Us - Codelynes</title>
+        <meta
+          name="description"
+          content="Learn about Codelynes—our mission, process, and commitment to building high-quality software solutions that drive measurable business impact."
+        />
+        <link rel="canonical" href={canonicalUrl("/about-us")} />
+      </Helmet>
       <Header />
       <div data-aos="fade-down" className="h-[50vh] md:h-[60vh]">
         <img

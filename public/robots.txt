@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Optional: block internal/utility paths if ever added
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://www.codelynes.com/sitemap.xml

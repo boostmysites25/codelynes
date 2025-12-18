@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Header from "../../components/Website/Header";
 import Footer from "../../components/Footer";
-import { FaCheckCircle, FaArrowLeft, FaHome } from "react-icons/fa";
+import { FaCheckCircle, FaHome } from "react-icons/fa";
+import { canonicalUrl } from "../../utils/seo";
 
 const ThankYou = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const ThankYou = () => {
           name="description"
           content="Thank you for contacting Codelynes. We've received your message and will get back to you soon."
         />
+        <link rel="canonical" href={canonicalUrl("/thank-you")} />
       </Helmet>
       <div className="landing-bg">
         <Header />

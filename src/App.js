@@ -85,7 +85,7 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/:title" element={<BlogDetails />} />
+            <Route path="/blogs/:slug" element={<BlogDetails />} />
 
             {/* Services Detail Routes with Layout */}
             <Route path="/services" element={<ServicePageLayout />}>

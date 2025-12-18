@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import bannerImg from "../../assets/images/contact-page-banner.webp";
 import { Link } from "react-router-dom";
 import Header from "../../components/Website/Header";
@@ -13,10 +14,19 @@ import {
 import { companyDetails } from "../../data/constant";
 import MapComponent from "../../components/Website/MapComponent";
 import InquiryForm from "../../components/InquiryForm";
+import { canonicalUrl } from "../../utils/seo";
 
 const ContactUs = () => {
   return (
     <div className="bg-[#fafafa]">
+      <Helmet>
+        <title>Contact - Codelynes</title>
+        <meta
+          name="description"
+          content="Contact Codelynes to discuss your project needs. Reach us by phone, email, or send a message—our team will respond quickly."
+        />
+        <link rel="canonical" href={canonicalUrl("/contact")} />
+      </Helmet>
       <Header />
       <div className="min-h-[45vh] md:min-h-[70vh] w-full page-banner relative">
         <img
