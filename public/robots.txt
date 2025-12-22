@@ -1,9 +1,18 @@
 # https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
+Disallow:
+
+User-agent: GPTBot
 Allow: /
 
-# Optional: block internal/utility paths if ever added
-Disallow: /admin
-Disallow: /private
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Allow:
 
 Sitemap: https://www.codelynes.com/sitemap.xml
