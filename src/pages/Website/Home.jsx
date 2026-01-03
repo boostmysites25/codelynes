@@ -19,6 +19,7 @@ import { Link } from "react-router-dom";
 import WorkFlow from "../../components/WorkFlow";
 import CEOMessage from "../../components/Website/CEOMessage";
 import { canonicalUrl } from "../../utils/seo";
+import InquiryForm from "../../components/InquiryForm";
 
 // Lazy load components for better performance
 const Header = React.lazy(() => import("../../components/Website/Header"));
@@ -93,8 +94,10 @@ const Home = () => {
       <div className="landing-bg">
         <Header />
         <Banner />
-
-        <main>
+        <div className="py-[4rem]">
+        <InquiryForm />
+      </div>
+        <div>
           <section
             id="services"
             className="w-screen min-h-[70vh] flex justify-center relative pt-[3rem] section-padding bg-gradient-to-b from-white to-accent-light-blue/10"
@@ -242,7 +245,7 @@ const Home = () => {
           <Testimonials />
           <LeadForm />
           <AssociatedWith />
-        </main>
+        </div>
         <Footer />
       </div>
     </>

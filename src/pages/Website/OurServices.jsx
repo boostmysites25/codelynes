@@ -55,7 +55,7 @@ const OurServices = () => {
           </p>
           <div
             data-aos="fade-up"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-10 mx-auto max-w-6xl"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-10 mx-auto max-w-6xl"
           >
             {services.map((item) => (
               <ServiceItemCard item={item} key={item.id} />

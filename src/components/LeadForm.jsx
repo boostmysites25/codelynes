@@ -19,7 +19,7 @@ const LeadForm = () => {
     defaultValues: {
       name: "",
       email: "",
-      subject: "",
+      phone: "",
       message: "",
     },
   });
@@ -30,7 +30,7 @@ const LeadForm = () => {
 
     var emailBody = "Name: " + values.name + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
-    emailBody += "Subject: " + values.subject + "\n\n";
+    emailBody += "Phone: " + values.phone + "\n\n";
     emailBody += "Message:\n" + values.message;
 
     // Construct the request payload
@@ -122,24 +122,35 @@ const LeadForm = () => {
             </div>
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
-                Subject
+                Phone Number
               </label>
               <input
-                type="text"
+                type="tel"
                 className="border outline-none border-primary rounded-sm p-2"
-                placeholder="Enter Subject"
-                {...register("subject", {
-                  required: "Subject is required",
+                placeholder="+1 (555) 123-4567"
+                {...register("phone", {
+                  required: "Phone number is required",
+                  pattern: {
+                    value: /^[+]?[1-9][\d\s().-]{8,14}$/,
+                    message: "Please enter a valid phone number (10-15 digits)",
+                  },
                   validate: (val) => {
-                    if (val.trim() !== "") {
-                      return true;
-                    } else {
-                      return "Subject is required";
+                    // Remove all non-digit characters except +
+                    const digitsOnly = val.replace(/[^\d+]/g, "");
+                    const digitCount = digitsOnly.replace(/\+/g, "").length;
+                    if (digitCount < 10 || digitCount > 15) {
+                      return "Phone number must contain 10-15 digits";
                     }
+                    // Ensure first digit (after + if present) is 1-9
+                    const firstDigit = digitsOnly.replace(/\+/, "").charAt(0);
+                    if (firstDigit === "0") {
+                      return "Phone number cannot start with 0";
+                    }
+                    return true;
                   },
                 })}
               />
-              <small className="error-message">{errors.subject?.message}</small>
+              <small className="error-message">{errors.phone?.message}</small>
             </div>
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">
