@@ -57,6 +57,12 @@ const InquiryForm = () => {
         } else {
           toast.success("Email sent successfully");
           reset();
+          // Fire Google Ads conversion event
+          if (window.gtag) {
+            window.gtag('event', 'conversion', {
+              'send_to': 'AW-17720992908/9H-JCIHNxdYbEIzJg4JC'
+            });
+          }
           // Redirect to thank you page after a short delay
           setTimeout(() => {
             navigate("/thank-you");
